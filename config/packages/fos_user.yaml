@@ -6,5 +6,7 @@ fos_user:
     address: "bryanguerrerospp@gmail.com"
     sender_name: "Bryan Guerrero"
   registration:
+    form:
+      type: App\Form\RegistrationType
     confirmation:
       enabled: true
